@@ -56,6 +56,14 @@ table {
   font-family: Roboto;
 }
 
+.secondary {
+  background-color: #9256dc1e;
+}
+
+.grey {
+  background-color: #f2f2f2;
+}
+
 .header {
   height: 60px;
   display: flex;
@@ -116,6 +124,50 @@ table {
   color: white;
   font-weight: 900;
   border: none;
+}
+
+.fonctionnment__container {
+  padding: 3rem 1rem;
+}
+.fonctionnment__container h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.f__card {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+  margin-bottom: 1rem;
+}
+
+.f__card__ico {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f__card__ico span:first-child {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+  align-items: center;
+  background-color: #9356dc;
+  border-radius: 50%;
+  color: white;
+}
+.f__card__ico span:last-child {
+  color: #f50606;
+}
+.f__card__ico h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=accueil.css.map */
