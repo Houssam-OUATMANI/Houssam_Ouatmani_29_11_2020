@@ -1,0 +1,82 @@
+@import "./utils/reset.scss";
+
+//---------------------- VARIABLES ------------------------------- //
+
+// Font
+$Shrikhand: Shrikhand;
+$Roboto: Roboto;
+
+// Colors
+
+$Primaire: #9356dc;
+$Secondaire: #ff79da;
+$Tertiaire: #99e2d0;
+
+*{
+    font-family: $Roboto;
+}
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: $Shrikhand;
+    font-size: 1.9rem;
+  }
+}
+
+.pb__container {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-family: $Roboto;
+
+  p {
+      font-size: 1.1rem;
+  }
+}
+.pb__holder {
+  width: 40%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  height: 221px;  
+  padding: 2rem;
+  background-color:#fbfbfb;
+
+  h2{
+      text-align: center;
+      font-size: 1.7rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      
+  }
+  p{
+      text-align: center;
+      font-weight: 300;
+  }
+}
+
+.btn__container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        padding: 1rem;
+        border-radius: 30px;
+        background: linear-gradient($Secondaire, $Primaire);
+        color: white;
+        font-weight: 900;
+        border: none;
+    }
+}
