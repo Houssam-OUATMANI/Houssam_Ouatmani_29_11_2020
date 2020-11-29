@@ -18,9 +18,10 @@ $Tertiaire: #99e2d0;
 }
 
 body {
-  width: 100vw;
+  max-width: 1660
+  px;
+  margin: auto;
 }
-
 img {
   object-fit: cover;
 }
@@ -211,3 +212,39 @@ img {
     }
   }
 }
+
+
+@media only screen and (min-width : 700px){
+
+.restaurant__container{
+  text-align: center;
+ h2{
+   font-size: 3rem;
+ }
+}
+
+  .desktop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .r-card {
+    width: 350px;
+    text-align: center;
+    margin: 2.5rem 0;
+  }
+  .r-card__description {
+    width: auto;
+  }
+
+  .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+}
+
+
