@@ -55,10 +55,12 @@ table {
 * {
   font-family: Roboto;
   text-decoration: none;
+  box-sizing: border-box;
+  appearance: none;
 }
 
 body {
-  max-width: 1660 px;
+  max-width: 1660px;
   margin: auto;
 }
 
@@ -72,17 +74,6 @@ img {
 
 .grey {
   background-color: #f6f6f6;
-}
-
-.header {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header h1 {
-  font-family: Shrikhand;
-  font-size: 1.9rem;
 }
 
 .pb__container {
@@ -224,29 +215,7 @@ img {
   padding-bottom: 0.5rem;
 }
 
-.footer {
-  padding: 1.5rem;
-  background-color: #343536;
-}
-
-.footer__logo {
-  font-family: Shrikhand;
-  color: white;
-  margin-bottom: 1.5rem;
-}
-
-.footer__links {
-  margin-bottom: 1rem;
-}
-.footer__links p {
-  padding-bottom: 1rem;
-}
-.footer__links p a {
-  color: white;
-  font-family: Roboto;
-}
-
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   .restaurant__container {
     text-align: center;
   }
@@ -270,12 +239,6 @@ img {
 
   .r-card__description {
     width: auto;
-  }
-
-  .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
   }
 }
 

@@ -1,49 +1,8 @@
 @import "./utils/reset.scss";
+@import "../styles/utils/variable.scss";
+@import "../utils/shared.scss"
 
-//---------------------- VARIABLES ------------------------------- //
 
-// Font
-$Shrikhand: Shrikhand;
-$Roboto: Roboto;
-
-// Colors
-
-$Primaire: #9356dc;
-$Secondaire: #ff79da;
-$Tertiaire: #99e2d0;
-
-* {
-  font-family: $Roboto;
-  text-decoration: none;
-}
-
-body {
-  max-width: 1660
-  px;
-  margin: auto;
-}
-img {
-  object-fit: cover;
-}
-
-.secondary {
-  background-color: #9256dc1e;
-}
-
-.grey {
-  background-color: #f6f6f6;
-}
-.header {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  h1 {
-    font-family: $Shrikhand;
-    font-size: 1.9rem;
-  }
-}
 
 .pb__container {
   height: 50px;
@@ -191,30 +150,9 @@ img {
   }
 }
 
-.footer {
-  padding: 1.5rem;
-  background-color: #343536;
-}
-.footer__logo {
-  font-family: $Shrikhand;
-  color: white;
-  margin-bottom: 1.5rem;
-}
-
-.footer__links {
-  margin-bottom: 1rem;
-  p {
-    padding-bottom: 1rem;
-
-    a {
-      color: white;
-      font-family: $Roboto;
-    }
-  }
-}
 
 
-@media only screen and (min-width : 700px){
+@media only screen and (min-width : 600px){
 
 .restaurant__container{
   text-align: center;
@@ -240,11 +178,7 @@ img {
     width: auto;
   }
 
-  .footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-  }
+  
 }
 
 

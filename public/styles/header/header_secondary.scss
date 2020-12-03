@@ -1,0 +1,40 @@
+@import "../utils/reset.scss";
+@import "../utils/variable.scss";
+@import "../utils/shared.scss";
+
+.header {
+  
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  
+    h1 {
+      font-family: $Shrikhand;
+      font-size: 1.9rem;
+    }
+  }
+
+  .header__container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+}
+
+.arrow {
+  color: rgb(51, 44, 44);
+}
+
+
+@media only screen and (min-width : 600px){
+.header{
+    justify-content: center;
+}
+  .header__container {
+    width: 50%;
+    display: flex;
+      align-items: center;
+     justify-content: space-evenly;
+}
+}

@@ -1,0 +1,15 @@
+@import "../utils/reset.scss";
+@import "../utils/variable.scss";
+
+.header {
+  
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+      font-family: $Shrikhand;
+      font-size: 1.9rem;
+    }
+  }

@@ -1,0 +1,24 @@
+* {
+    font-family: $Roboto;
+    text-decoration: none;
+    box-sizing: border-box;
+    appearance: none;
+  
+  }
+  
+  body {
+    max-width: 1660px;
+    
+    margin: auto;
+  }
+  img {
+    object-fit: cover;
+  }
+  
+  .secondary {
+    background-color: #9256dc1e;
+  }
+  
+  .grey {
+    background-color: #f6f6f6;
+  }

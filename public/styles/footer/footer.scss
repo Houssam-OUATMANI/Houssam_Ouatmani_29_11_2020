@@ -1,0 +1,40 @@
+@import "../utils/reset.scss";
+@import "../utils/variable.scss";
+@import "../utils/shared.scss";
+
+
+.footer {
+    padding: 1.5rem;
+    background-color: #343536;
+  }
+  .footer__logo {
+    font-family: $Shrikhand;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer__links {
+    margin-bottom: 1rem;
+    p {
+      padding-bottom: 1rem;
+      span{
+        padding-right: .5rem;
+        color: white;
+      }
+     
+      a {
+        color: white;
+        font-family: $Roboto;
+      }
+    }
+  }
+
+
+  @media only screen and (min-width : 600px){
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+  }
+  
