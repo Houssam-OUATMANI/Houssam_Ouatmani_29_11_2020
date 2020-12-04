@@ -77,6 +77,7 @@ img {
 }
 
 .pb__container {
+  z-index: 3;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -139,35 +140,50 @@ img {
 .f__card {
   height: 75px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border-radius: 20px;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.125);
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
-.f__card span:first-child {
-  position: absolute;
-  left: 4%;
+
+.f__card__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f__card__container span:first-child {
   font-weight: 700;
-  height: 32px;
-  width: 32px;
+  height: 1.5rem;
+  width: 1.5rem;
   display: flex;
   justify-content: center;
-  margin-left: -10px;
+  margin-left: -1rem;
   align-items: center;
   background-color: #9356dc;
   border-radius: 50%;
   color: white;
+  font-size: 0.75rem;
 }
-.f__card span:nth-child(2) {
-  position: absolute;
-  left: 16%;
+.f__card__container span:nth-child(2) {
   color: #a8a8a8;
 }
-.f__card h3 {
+
+#purple {
+  color: #9356dc;
+}
+
+.f__card__title {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.f__card__title h3 {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .restaurant__container {

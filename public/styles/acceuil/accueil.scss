@@ -1,17 +1,17 @@
-@import "./utils/reset.scss";
-@import "../styles/utils/variable.scss";
-@import "../utils/shared.scss"
+@import "../utils/reset.scss";
+@import "../utils/variable.scss";
+@import "../utils/shared.scss";
 
 
 
 .pb__container {
+  z-index: 3;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
   font-family: $Roboto;
-
   p {
     font-size: 1.1rem;
   }
@@ -70,37 +70,53 @@
 .f__card {
   height: 75px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   border-radius: 20px;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.125);
   margin-bottom: 1rem;
   margin-left: 1rem;
+  
+}
+
+.f__card__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   span:first-child {
-    position: absolute;
-    left: 4%;
-    font-weight: 700;
-    height: 32px;
-    width: 32px;
-    display: flex;
-    justify-content: center;
-    margin-left: -10px;
-    align-items: center;
-    background-color: #9356dc;
-    border-radius: 50%;
-    color: white;
-  }
+     font-weight: 700;
+     height: 1.5rem;
+     width: 1.5rem;
+     display: flex;
+      justify-content: center;
+      margin-left: -1rem;
+     align-items: center;
+     background-color: #9356dc;
+     border-radius: 50%;
+     color: white;
+     font-size: .75rem;
+   }
 
   span:nth-child(2) {
-    position: absolute;
-    left: 16%;
-    color: #a8a8a8;
+   color: #a8a8a8;
   }
+}
 
-  h3 {
+#purple {
+  color: $Primaire;
+}
+
+.f__card__title {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  h3 {  
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
