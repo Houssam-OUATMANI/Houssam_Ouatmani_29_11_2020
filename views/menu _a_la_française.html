@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/styles/header/header_secondary.css">
-    <link rel="stylesheet" href="../public/styles/footer/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../public/styles/header/header_secondary.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../public/styles/menu_a_la_francaise/francaise.css"
+    />
+    <link rel="stylesheet" href="../public/styles/footer/footer.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
@@ -15,48 +22,63 @@
       rel="stylesheet"
     />
 
-      <!-- Font-awesome CDN -->
-      <script
+    <!-- Font-awesome CDN -->
+    <script
       src="https://kit.fontawesome.com/ef05bd29a1.js"
       crossorigin="anonymous"
       defer
     ></script>
-    <title>menu A la fraçaise</title>
-</head>
-<body>
+    <title>menu À la fraçaise</title>
+  </head>
+  <body>
+    <!--############################  HEADER  ############################-->
 
-     <!--############################  HEADER  ############################--> 
-
-     <header class="header">
-       <section class="header__container">
-        <a href="./acceuil.html"><i class="fas fa-arrow-left fa-lg arrow"></i></a>
+    <header class="header">
+      <section class="header__container">
+        <a href="./acceuil.html"
+          ><i class="fas fa-arrow-left fa-lg arrow"></i
+        ></a>
         <h1>ohmyfood</h1>
-       </section>
-     
+      </section>
     </header>
 
-     <!--############################  MAIN     ############################--> 
-     
-    <main></main>
+    <!--############################  MAIN     ############################-->
 
-     <!--############################  FOOTER   ############################--> 
+    <main>
+      <div class="hero">
+        <!-- Contenu chargé via le CSS-->
+      </div>
+      <div class="a-la-francaise">
+        <section class="a-l-f__title">
+          <h2>À la française</h2>
+          <div class="r__heart">
+            <i class="far fa-heart fa-lg"></i>
+          </div>
+
+          <h3>ENTRÉES</h3>
+          <article class="entrees"></article>
+        </section>
+      </div>
+    </main>
+
+    <!--############################  FOOTER   ############################-->
 
     <footer class="footer">
-        <article class="footer__logo">
-          <h3>ohmyfood</h3>
-        </article>
-        <div class="footer__links">
-          <p>
-            <span><i class="fas fa-utensils"></i></span
-            ><a href="#">Proposez un restaurant</a>
-          </p>
-          <p>
-            <span><i class="fas fa-hands-helping fa-xs"></i></span
-            ><a href="#">Devenir un partenaire</a>
-          </p>
-          <p><a href="#">Mention légales</a></p>
-          <p><a href="#">Contact</a></p>
-        </div>
-      </footer>
-</body>
+      <article class="footer__logo">
+        <h3>ohmyfood</h3>
+      </article>
+      <div class="footer__links">
+        <p>
+          <span><i class="fas fa-utensils"></i></span
+          ><a href="#">Proposez un restaurant</a>
+        </p>
+        <p>
+          <span><i class="fas fa-hands-helping fa-xs"></i></span
+          ><a href="#">Devenir un partenaire</a>
+        </p>
+        <p><a href="#">Mention légales</a></p>
+        <p><a href="#">Contact</a></p>
+      </div>
+    </footer>
+  </body>
 </html>

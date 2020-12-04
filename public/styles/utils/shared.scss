@@ -1,3 +1,5 @@
+@import "./variable.scss";
+
 * {
     font-family: $Roboto;
     text-decoration: none;
@@ -5,16 +7,18 @@
     appearance: none;
   
   }
-  
+
   body {
-    max-width: 1660px;
-    
+    max-width: 1200px;
     margin: auto;
   }
   img {
     object-fit: cover;
   }
   
+  a {
+    color: black;
+  }
   .secondary {
     background-color: #9256dc1e;
   }
