@@ -156,6 +156,9 @@
   }
 }
 .r-card__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 30%;
   padding: 1rem 1rem;
@@ -165,7 +168,12 @@
     padding-bottom: 0.5rem;
   }
 }
-
+.r__heart{
+  color: black;
+}
+.heart {
+  color: $Primaire;
+}
 
 
 @media only screen and (min-width : 600px){
