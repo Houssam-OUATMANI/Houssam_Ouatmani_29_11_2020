@@ -7,10 +7,14 @@
     appearance: none;
   
   }
+  html{
+    scroll-behavior: smooth;
+  }
 
   body {
     max-width: 1200px;
     margin: auto;
+    scroll-behavior: smooth;
   }
   img {
     object-fit: cover;

@@ -59,9 +59,14 @@ table {
   appearance: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 1200px;
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -123,7 +128,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.btn__container input {
+.btn__container a {
   padding: 1rem;
   border-radius: 30px;
   background: linear-gradient(#ff79da, #9356dc);
