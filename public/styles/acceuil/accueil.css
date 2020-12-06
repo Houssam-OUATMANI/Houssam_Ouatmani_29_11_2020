@@ -259,6 +259,15 @@ a {
     font-size: 3rem;
   }
 
+  .header {
+    height: 70px;
+    overflow: hidden;
+  }
+
+  main {
+    overflow: hidden;
+  }
+
   .desktop {
     display: flex;
     flex-wrap: wrap;
