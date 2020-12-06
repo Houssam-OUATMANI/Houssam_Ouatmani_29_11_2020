@@ -59,13 +59,22 @@ table {
   appearance: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  max-width: 1660px;
+  max-width: 1200px;
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 img {
   object-fit: cover;
+}
+
+a {
+  color: black;
 }
 
 .secondary {
@@ -96,6 +105,14 @@ img {
 
 .arrow {
   color: #332c2c;
+}
+
+.hero {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: top;
+  z-index: 2;
 }
 
 @media only screen and (min-width: 600px) {

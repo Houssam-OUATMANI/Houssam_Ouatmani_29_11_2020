@@ -26,6 +26,15 @@
   color: rgb(51, 44, 44);
 }
 
+.hero {
+  position: relative;
+  height: 250px;
+  background-size: cover;
+  background-position: top;
+  z-index: 2;
+}
+
+
 
 @media only screen and (min-width : 600px){
 .header{
