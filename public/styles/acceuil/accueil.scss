@@ -178,6 +178,7 @@
 
 @media only screen and (min-width : 600px){
 
+ 
 .restaurant__container{
   text-align: center;
  h2{
@@ -192,11 +193,41 @@
     align-items: center;
     overflow: hidden;
   }
+  .btn__container {
+    transition: .3s;
+    &:hover {
+      transform: scale(1.20);
+    }
+  }
+
+  .fonctionnment__container {
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  }
+  .f__card {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  .f__card__container {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .f__card__title {
+    width: 33%;
+  }
 
   .r-card {
-    width: 350px;
+    width: 450px;
     text-align: center;
     margin: 2.5rem 0;
+    transition: .3s;
+
+    &:hover {
+      transform: scale(1.10);
+    }
   }
   .r-card__description {
     width: auto;

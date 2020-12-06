@@ -267,10 +267,40 @@ a {
     overflow: hidden;
   }
 
+  .btn__container {
+    transition: 0.3s;
+  }
+  .btn__container:hover {
+    transform: scale(1.2);
+  }
+
+  .fonctionnment__container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .f__card {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  .f__card__container {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .f__card__title {
+    width: 33%;
+  }
+
   .r-card {
-    width: 350px;
+    width: 450px;
     text-align: center;
     margin: 2.5rem 0;
+    transition: 0.3s;
+  }
+  .r-card:hover {
+    transform: scale(1.1);
   }
 
   .r-card__description {
