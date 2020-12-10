@@ -135,6 +135,11 @@ a {
   color: white;
   font-weight: 900;
   border: none;
+  transition: 0.3s;
+}
+.btn__container a:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
+  background: linear-gradient(#f78ed9, #905fcc);
 }
 
 .fonctionnment__container {
@@ -180,8 +185,9 @@ a {
   color: #a8a8a8;
 }
 
-#purple {
-  color: #9356dc;
+.test:hover {
+  animation-duration: 3s;
+  animation-name: heart-coloration;
 }
 
 .f__card__title {
@@ -276,13 +282,9 @@ a {
     overflow: hidden;
   }
 
-  .btn__container {
-    transition: 0.3s;
+  .fonctionnment__container {
+    background-color: #fcfcfc;
   }
-  .btn__container:hover {
-    transform: scale(1.2);
-  }
-
   .fonctionnment__container h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -303,7 +305,7 @@ a {
   }
 
   .r-card {
-    width: 450px;
+    width: 550px;
     text-align: center;
     margin: 2.5rem 0;
     transition: 0.3s;
@@ -314,6 +316,14 @@ a {
 
   .r-card__description {
     width: auto;
+  }
+}
+@keyframes heart-coloration {
+  from {
+    color: #ff79da;
+  }
+  to {
+    color: #9356dc;
   }
 }
 

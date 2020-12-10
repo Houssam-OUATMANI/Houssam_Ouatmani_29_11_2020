@@ -39,19 +39,31 @@
 @media only screen and (min-width : 600px){
 .header{
     justify-content: center;
-    position: -webkit-sticky;
-    
+    height: 80px;
 }
   .header__container {
     width: 50%;
     display: flex;
-      align-items: center;
-     justify-content: space-evenly;
-     position: sticky;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .hero {
-  height: 650px;
+  height: 350px;
   background-position: bottom;
 }
+}
+
+@media only screen and (min-width : 900px){
+
+  .hero {height: 450px;}
+}
+
+@media only screen and (min-width : 1050px){
+
+  .hero {height: 550px;}
+}
+@media only screen and (min-width : 1200px){
+
+  .hero {height: 650px;}
 }

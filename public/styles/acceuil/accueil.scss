@@ -46,6 +46,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  
 
   a {
     padding: 1rem;
@@ -54,6 +56,12 @@
     color: white;
     font-weight: 900;
     border: none;
+    transition: .3s;
+
+    &:hover {
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
+      background: linear-gradient($Secondaire_clair, $Primaire_clair);
+    }
   }
 }
 
@@ -104,8 +112,9 @@
   }
 }
 
-#purple {
-  color: $Primaire;
+.test:hover {
+ animation-duration: 3s;
+ animation-name: heart-coloration;
 }
 
 .f__card__title {
@@ -200,14 +209,11 @@ main {
     align-items: center;
     overflow: hidden;
   }
-  .btn__container {
-    transition: .3s;
-    &:hover {
-      transform: scale(1.20);
-    }
-  }
+  
 
   .fonctionnment__container {
+
+    background-color: #fcfcfc;
     h2 {
       text-align: center;
       font-size: 2.5rem;
@@ -227,7 +233,7 @@ main {
   }
 
   .r-card {
-    width: 450px;
+    width: 550px;
     text-align: center;
     margin: 2.5rem 0;
     transition: .3s;
@@ -244,3 +250,11 @@ main {
 }
 
 
+@keyframes heart-coloration {
+  from {
+    color: $Secondaire;
+  }
+  to {
+    color: $Primaire;
+  } 
+}

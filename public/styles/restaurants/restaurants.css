@@ -85,6 +85,20 @@ a {
   background-color: #f6f6f6;
 }
 
+hr {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: #99e2d0;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.first {
+  margin-top: 2rem !important;
+}
+
 .image-francaise {
   background-image: url("../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
 }
@@ -132,12 +146,8 @@ a {
   padding-top: 1rem;
 }
 .menu h3 {
-  display: inline-block;
   font-weight: 400;
   color: #383737;
-  border-bottom-width: 1em;
-  padding-bottom: 0.5rem;
-  border-bottom: solid 3px #99e2d0;
 }
 
 .f-article {
@@ -146,6 +156,7 @@ a {
   background-color: white;
   border-radius: 1rem;
   box-shadow: 0 5px 5px 4px rgba(160, 141, 141, 0.048);
+  /*  animation: sacade; */
 }
 .f-article h4 {
   font-weight: 700;
@@ -156,6 +167,13 @@ a {
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
+}
+
+.green {
+  width: 100px;
+  display: flex;
+  padding: 2rem 0;
+  background-color: #99e2d0;
 }
 
 .plats,
@@ -180,7 +198,44 @@ a {
 }
 .btn__commander input:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
+  background: linear-gradient(#f78ed9, #905fcc);
+}
+
+@media only screen and (min-width: 600px) {
+  hr {
+    position: relative;
+    width: 40px;
+  }
+
+  .a-l-f__title {
+    margin: auto;
+    padding-bottom: 1rem;
+    width: 75%;
+  }
+
+  .f-article {
+    width: 75%;
+    margin: 1rem auto;
+  }
+
+  .menu h3 {
+    display: block;
+    text-align: center;
+    border-bottom: none;
+  }
+}
+@keyframes sacade {
+  from {
+    display: none;
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    display: block;
+    opacity: 1;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=restaurants.css.map */
