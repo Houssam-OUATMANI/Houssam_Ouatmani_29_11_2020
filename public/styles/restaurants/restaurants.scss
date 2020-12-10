@@ -3,7 +3,6 @@
 @import "../utils/shared.scss";
 
 
-
 hr {
     display: block;
     position: absolute;
@@ -164,6 +163,18 @@ hr {
         border-bottom: none;
     }
 }
+
+@media only screen and (max-width : 300px){
+
+    * {
+        font-size: 4vw;
+    }
+    .a-l-f__title h2{
+        font-size: 6vw;
+    }
+}
+
+
 
 @keyframes sacade {
     from {
