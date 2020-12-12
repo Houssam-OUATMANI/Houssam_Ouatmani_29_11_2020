@@ -388,601 +388,601 @@ a {
 
 @keyframes heart-coloration {
   1% {
-    background: linear-gradient(#ff79da, #9356dc 1%);
+    background: linear-gradient(1deg, #9356dc 1%, #ff79da 1%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   2% {
-    background: linear-gradient(#ff79da, #9356dc 2%);
+    background: linear-gradient(2deg, #9356dc 2%, #ff79da 2%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   3% {
-    background: linear-gradient(#ff79da, #9356dc 3%);
+    background: linear-gradient(3deg, #9356dc 3%, #ff79da 3%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   4% {
-    background: linear-gradient(#ff79da, #9356dc 4%);
+    background: linear-gradient(4deg, #9356dc 4%, #ff79da 4%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   5% {
-    background: linear-gradient(#ff79da, #9356dc 5%);
+    background: linear-gradient(5deg, #9356dc 5%, #ff79da 5%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   6% {
-    background: linear-gradient(#ff79da, #9356dc 6%);
+    background: linear-gradient(6deg, #9356dc 6%, #ff79da 6%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   7% {
-    background: linear-gradient(#ff79da, #9356dc 7%);
+    background: linear-gradient(7deg, #9356dc 7%, #ff79da 7%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   8% {
-    background: linear-gradient(#ff79da, #9356dc 8%);
+    background: linear-gradient(8deg, #9356dc 8%, #ff79da 8%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   9% {
-    background: linear-gradient(#ff79da, #9356dc 9%);
+    background: linear-gradient(9deg, #9356dc 9%, #ff79da 9%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   10% {
-    background: linear-gradient(#ff79da, #9356dc 10%);
+    background: linear-gradient(10deg, #9356dc 10%, #ff79da 10%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   11% {
-    background: linear-gradient(#ff79da, #9356dc 11%);
+    background: linear-gradient(11deg, #9356dc 11%, #ff79da 11%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   12% {
-    background: linear-gradient(#ff79da, #9356dc 12%);
+    background: linear-gradient(12deg, #9356dc 12%, #ff79da 12%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   13% {
-    background: linear-gradient(#ff79da, #9356dc 13%);
+    background: linear-gradient(13deg, #9356dc 13%, #ff79da 13%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   14% {
-    background: linear-gradient(#ff79da, #9356dc 14%);
+    background: linear-gradient(14deg, #9356dc 14%, #ff79da 14%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   15% {
-    background: linear-gradient(#ff79da, #9356dc 15%);
+    background: linear-gradient(15deg, #9356dc 15%, #ff79da 15%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   16% {
-    background: linear-gradient(#ff79da, #9356dc 16%);
+    background: linear-gradient(16deg, #9356dc 16%, #ff79da 16%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   17% {
-    background: linear-gradient(#ff79da, #9356dc 17%);
+    background: linear-gradient(17deg, #9356dc 17%, #ff79da 17%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   18% {
-    background: linear-gradient(#ff79da, #9356dc 18%);
+    background: linear-gradient(18deg, #9356dc 18%, #ff79da 18%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   19% {
-    background: linear-gradient(#ff79da, #9356dc 19%);
+    background: linear-gradient(19deg, #9356dc 19%, #ff79da 19%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   20% {
-    background: linear-gradient(#ff79da, #9356dc 20%);
+    background: linear-gradient(20deg, #9356dc 20%, #ff79da 20%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   21% {
-    background: linear-gradient(#ff79da, #9356dc 21%);
+    background: linear-gradient(21deg, #9356dc 21%, #ff79da 21%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   22% {
-    background: linear-gradient(#ff79da, #9356dc 22%);
+    background: linear-gradient(22deg, #9356dc 22%, #ff79da 22%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   23% {
-    background: linear-gradient(#ff79da, #9356dc 23%);
+    background: linear-gradient(23deg, #9356dc 23%, #ff79da 23%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   24% {
-    background: linear-gradient(#ff79da, #9356dc 24%);
+    background: linear-gradient(24deg, #9356dc 24%, #ff79da 24%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   25% {
-    background: linear-gradient(#ff79da, #9356dc 25%);
+    background: linear-gradient(25deg, #9356dc 25%, #ff79da 25%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   26% {
-    background: linear-gradient(#ff79da, #9356dc 26%);
+    background: linear-gradient(26deg, #9356dc 26%, #ff79da 26%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   27% {
-    background: linear-gradient(#ff79da, #9356dc 27%);
+    background: linear-gradient(27deg, #9356dc 27%, #ff79da 27%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   28% {
-    background: linear-gradient(#ff79da, #9356dc 28%);
+    background: linear-gradient(28deg, #9356dc 28%, #ff79da 28%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   29% {
-    background: linear-gradient(#ff79da, #9356dc 29%);
+    background: linear-gradient(29deg, #9356dc 29%, #ff79da 29%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   30% {
-    background: linear-gradient(#ff79da, #9356dc 30%);
+    background: linear-gradient(30deg, #9356dc 30%, #ff79da 30%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   31% {
-    background: linear-gradient(#ff79da, #9356dc 31%);
+    background: linear-gradient(31deg, #9356dc 31%, #ff79da 31%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   32% {
-    background: linear-gradient(#ff79da, #9356dc 32%);
+    background: linear-gradient(32deg, #9356dc 32%, #ff79da 32%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   33% {
-    background: linear-gradient(#ff79da, #9356dc 33%);
+    background: linear-gradient(33deg, #9356dc 33%, #ff79da 33%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   34% {
-    background: linear-gradient(#ff79da, #9356dc 34%);
+    background: linear-gradient(34deg, #9356dc 34%, #ff79da 34%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   35% {
-    background: linear-gradient(#ff79da, #9356dc 35%);
+    background: linear-gradient(35deg, #9356dc 35%, #ff79da 35%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   36% {
-    background: linear-gradient(#ff79da, #9356dc 36%);
+    background: linear-gradient(36deg, #9356dc 36%, #ff79da 36%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   37% {
-    background: linear-gradient(#ff79da, #9356dc 37%);
+    background: linear-gradient(37deg, #9356dc 37%, #ff79da 37%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   38% {
-    background: linear-gradient(#ff79da, #9356dc 38%);
+    background: linear-gradient(38deg, #9356dc 38%, #ff79da 38%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   39% {
-    background: linear-gradient(#ff79da, #9356dc 39%);
+    background: linear-gradient(39deg, #9356dc 39%, #ff79da 39%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   40% {
-    background: linear-gradient(#ff79da, #9356dc 40%);
+    background: linear-gradient(40deg, #9356dc 40%, #ff79da 40%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   41% {
-    background: linear-gradient(#ff79da, #9356dc 41%);
+    background: linear-gradient(41deg, #9356dc 41%, #ff79da 41%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   42% {
-    background: linear-gradient(#ff79da, #9356dc 42%);
+    background: linear-gradient(42deg, #9356dc 42%, #ff79da 42%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   43% {
-    background: linear-gradient(#ff79da, #9356dc 43%);
+    background: linear-gradient(43deg, #9356dc 43%, #ff79da 43%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   44% {
-    background: linear-gradient(#ff79da, #9356dc 44%);
+    background: linear-gradient(44deg, #9356dc 44%, #ff79da 44%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   45% {
-    background: linear-gradient(#ff79da, #9356dc 45%);
+    background: linear-gradient(45deg, #9356dc 45%, #ff79da 45%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   46% {
-    background: linear-gradient(#ff79da, #9356dc 46%);
+    background: linear-gradient(46deg, #9356dc 46%, #ff79da 46%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   47% {
-    background: linear-gradient(#ff79da, #9356dc 47%);
+    background: linear-gradient(47deg, #9356dc 47%, #ff79da 47%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   48% {
-    background: linear-gradient(#ff79da, #9356dc 48%);
+    background: linear-gradient(48deg, #9356dc 48%, #ff79da 48%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   49% {
-    background: linear-gradient(#ff79da, #9356dc 49%);
+    background: linear-gradient(49deg, #9356dc 49%, #ff79da 49%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   50% {
-    background: linear-gradient(#ff79da, #9356dc 50%);
+    background: linear-gradient(50deg, #9356dc 50%, #ff79da 50%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   51% {
-    background: linear-gradient(#ff79da, #9356dc 51%);
+    background: linear-gradient(51deg, #9356dc 51%, #ff79da 51%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   52% {
-    background: linear-gradient(#ff79da, #9356dc 52%);
+    background: linear-gradient(52deg, #9356dc 52%, #ff79da 52%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   53% {
-    background: linear-gradient(#ff79da, #9356dc 53%);
+    background: linear-gradient(53deg, #9356dc 53%, #ff79da 53%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   54% {
-    background: linear-gradient(#ff79da, #9356dc 54%);
+    background: linear-gradient(54deg, #9356dc 54%, #ff79da 54%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   55% {
-    background: linear-gradient(#ff79da, #9356dc 55%);
+    background: linear-gradient(55deg, #9356dc 55%, #ff79da 55%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   56% {
-    background: linear-gradient(#ff79da, #9356dc 56%);
+    background: linear-gradient(56deg, #9356dc 56%, #ff79da 56%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   57% {
-    background: linear-gradient(#ff79da, #9356dc 57%);
+    background: linear-gradient(57deg, #9356dc 57%, #ff79da 57%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   58% {
-    background: linear-gradient(#ff79da, #9356dc 58%);
+    background: linear-gradient(58deg, #9356dc 58%, #ff79da 58%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   59% {
-    background: linear-gradient(#ff79da, #9356dc 59%);
+    background: linear-gradient(59deg, #9356dc 59%, #ff79da 59%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   60% {
-    background: linear-gradient(#ff79da, #9356dc 60%);
+    background: linear-gradient(60deg, #9356dc 60%, #ff79da 60%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   61% {
-    background: linear-gradient(#ff79da, #9356dc 61%);
+    background: linear-gradient(61deg, #9356dc 61%, #ff79da 61%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   62% {
-    background: linear-gradient(#ff79da, #9356dc 62%);
+    background: linear-gradient(62deg, #9356dc 62%, #ff79da 62%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   63% {
-    background: linear-gradient(#ff79da, #9356dc 63%);
+    background: linear-gradient(63deg, #9356dc 63%, #ff79da 63%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   64% {
-    background: linear-gradient(#ff79da, #9356dc 64%);
+    background: linear-gradient(64deg, #9356dc 64%, #ff79da 64%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   65% {
-    background: linear-gradient(#ff79da, #9356dc 65%);
+    background: linear-gradient(65deg, #9356dc 65%, #ff79da 65%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   66% {
-    background: linear-gradient(#ff79da, #9356dc 66%);
+    background: linear-gradient(66deg, #9356dc 66%, #ff79da 66%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   67% {
-    background: linear-gradient(#ff79da, #9356dc 67%);
+    background: linear-gradient(67deg, #9356dc 67%, #ff79da 67%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   68% {
-    background: linear-gradient(#ff79da, #9356dc 68%);
+    background: linear-gradient(68deg, #9356dc 68%, #ff79da 68%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   69% {
-    background: linear-gradient(#ff79da, #9356dc 69%);
+    background: linear-gradient(69deg, #9356dc 69%, #ff79da 69%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   70% {
-    background: linear-gradient(#ff79da, #9356dc 70%);
+    background: linear-gradient(70deg, #9356dc 70%, #ff79da 70%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   71% {
-    background: linear-gradient(#ff79da, #9356dc 71%);
+    background: linear-gradient(71deg, #9356dc 71%, #ff79da 71%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   72% {
-    background: linear-gradient(#ff79da, #9356dc 72%);
+    background: linear-gradient(72deg, #9356dc 72%, #ff79da 72%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   73% {
-    background: linear-gradient(#ff79da, #9356dc 73%);
+    background: linear-gradient(73deg, #9356dc 73%, #ff79da 73%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   74% {
-    background: linear-gradient(#ff79da, #9356dc 74%);
+    background: linear-gradient(74deg, #9356dc 74%, #ff79da 74%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   75% {
-    background: linear-gradient(#ff79da, #9356dc 75%);
+    background: linear-gradient(75deg, #9356dc 75%, #ff79da 75%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   76% {
-    background: linear-gradient(#ff79da, #9356dc 76%);
+    background: linear-gradient(76deg, #9356dc 76%, #ff79da 76%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   77% {
-    background: linear-gradient(#ff79da, #9356dc 77%);
+    background: linear-gradient(77deg, #9356dc 77%, #ff79da 77%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   78% {
-    background: linear-gradient(#ff79da, #9356dc 78%);
+    background: linear-gradient(78deg, #9356dc 78%, #ff79da 78%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   79% {
-    background: linear-gradient(#ff79da, #9356dc 79%);
+    background: linear-gradient(79deg, #9356dc 79%, #ff79da 79%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   80% {
-    background: linear-gradient(#ff79da, #9356dc 80%);
+    background: linear-gradient(80deg, #9356dc 80%, #ff79da 80%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   81% {
-    background: linear-gradient(#ff79da, #9356dc 81%);
+    background: linear-gradient(81deg, #9356dc 81%, #ff79da 81%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   82% {
-    background: linear-gradient(#ff79da, #9356dc 82%);
+    background: linear-gradient(82deg, #9356dc 82%, #ff79da 82%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   83% {
-    background: linear-gradient(#ff79da, #9356dc 83%);
+    background: linear-gradient(83deg, #9356dc 83%, #ff79da 83%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   84% {
-    background: linear-gradient(#ff79da, #9356dc 84%);
+    background: linear-gradient(84deg, #9356dc 84%, #ff79da 84%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   85% {
-    background: linear-gradient(#ff79da, #9356dc 85%);
+    background: linear-gradient(85deg, #9356dc 85%, #ff79da 85%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   86% {
-    background: linear-gradient(#ff79da, #9356dc 86%);
+    background: linear-gradient(86deg, #9356dc 86%, #ff79da 86%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   87% {
-    background: linear-gradient(#ff79da, #9356dc 87%);
+    background: linear-gradient(87deg, #9356dc 87%, #ff79da 87%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   88% {
-    background: linear-gradient(#ff79da, #9356dc 88%);
+    background: linear-gradient(88deg, #9356dc 88%, #ff79da 88%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   89% {
-    background: linear-gradient(#ff79da, #9356dc 89%);
+    background: linear-gradient(89deg, #9356dc 89%, #ff79da 89%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   90% {
-    background: linear-gradient(#ff79da, #9356dc 90%);
+    background: linear-gradient(90deg, #9356dc 90%, #ff79da 90%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   91% {
-    background: linear-gradient(#ff79da, #9356dc 91%);
+    background: linear-gradient(91deg, #9356dc 91%, #ff79da 91%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   92% {
-    background: linear-gradient(#ff79da, #9356dc 92%);
+    background: linear-gradient(92deg, #9356dc 92%, #ff79da 92%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   93% {
-    background: linear-gradient(#ff79da, #9356dc 93%);
+    background: linear-gradient(93deg, #9356dc 93%, #ff79da 93%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   94% {
-    background: linear-gradient(#ff79da, #9356dc 94%);
+    background: linear-gradient(94deg, #9356dc 94%, #ff79da 94%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   95% {
-    background: linear-gradient(#ff79da, #9356dc 95%);
+    background: linear-gradient(95deg, #9356dc 95%, #ff79da 95%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   96% {
-    background: linear-gradient(#ff79da, #9356dc 96%);
+    background: linear-gradient(96deg, #9356dc 96%, #ff79da 96%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   97% {
-    background: linear-gradient(#ff79da, #9356dc 97%);
+    background: linear-gradient(97deg, #9356dc 97%, #ff79da 97%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   98% {
-    background: linear-gradient(#ff79da, #9356dc 98%);
+    background: linear-gradient(98deg, #9356dc 98%, #ff79da 98%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   99% {
-    background: linear-gradient(#ff79da, #9356dc 99%);
+    background: linear-gradient(99deg, #9356dc 99%, #ff79da 99%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   100% {
-    background: linear-gradient(#ff79da, #9356dc 100%);
+    background: linear-gradient(100deg, #9356dc 100%, #ff79da 100%, #9356dc);
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
