@@ -96,6 +96,7 @@ a {
   text-align: center;
   animation: blank 2s ease-in-out 2s reverse both;
   z-index: 1;
+  pointer-events: none;
 }
 
 .loader {
