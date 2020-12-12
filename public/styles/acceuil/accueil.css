@@ -85,6 +85,52 @@ a {
   background-color: #f6f6f6;
 }
 
+.loader__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dae4ec;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation: blank 2s ease-in-out 2s reverse both;
+  z-index: 1;
+}
+
+.loader {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border-top: 3px solid #9356dc;
+  border-bottom: 3px solid #ff79da;
+  border-left: 3px solid #99e2d0;
+  border-right: 3px solid rgba(255, 255, 255, 0);
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes blank {
+  to {
+    opacity: 1;
+    z-index: 99;
+  }
+  from {
+    opacity: 0;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: scale(1);
+    transform: rotate(0turn);
+    top: -20%;
+  }
+  to {
+    transform: scale(2);
+    transform: rotate(6turn);
+    top: 20%;
+  }
+}
 .pb__container {
   z-index: 3;
   height: 50px;
@@ -185,11 +231,6 @@ a {
   color: #a8a8a8;
 }
 
-.test:hover {
-  animation-duration: 3s;
-  animation-name: heart-coloration;
-}
-
 .f__card__title {
   width: 80%;
   display: flex;
@@ -247,10 +288,6 @@ a {
 .r-card__description h3 {
   font-weight: 700;
   padding-bottom: 0.5rem;
-}
-
-.r__heart {
-  color: black;
 }
 
 .heart {
@@ -318,12 +355,37 @@ a {
     width: auto;
   }
 }
+.test:hover {
+  display: inline !important;
+  animation-duration: 1s;
+  animation-name: heart-coloration;
+}
+
 @keyframes heart-coloration {
   from {
-    color: #ff79da;
+    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 0%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  25% {
+    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 25%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  50% {
+    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  75% {
+    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 75%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   to {
-    color: #9356dc;
+    background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 

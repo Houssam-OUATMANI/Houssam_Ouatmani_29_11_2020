@@ -3,6 +3,60 @@
 @import "../utils/shared.scss";
 
 
+// SPINNER
+.loader__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(218, 228, 236);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation: blank 2s ease-in-out 2s reverse both;
+  z-index: 1;
+  
+}
+
+.loader {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border-top: 3px solid $Primaire;
+  border-bottom: 3px solid $Secondaire;
+  border-left: 3px solid $Tertiaire;
+  border-right: 3px solid rgba(255, 255, 255, 0);
+  animation: rotate 2s linear infinite;
+}
+
+
+@keyframes blank {
+  to {
+    opacity: 1;
+    z-index: 99;
+    }
+  from {
+    opacity: 0;
+   
+  }
+}
+
+
+@keyframes rotate {
+  from {
+    transform: scale(1);
+    transform: rotate(0turn);
+    top : -20%;
+  }
+  to {
+    transform: scale(2);
+    transform: rotate(6turn);
+    top: 20%;
+  }
+}
+
+// END SPINNER
 
 .pb__container {
   z-index: 3;
@@ -112,17 +166,13 @@
   }
 }
 
-.test:hover {
- animation-duration: 3s;
- animation-name: heart-coloration;
-}
 
 .f__card__title {
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: start;
-
+  
   h3 {  
     font-size: 1rem;
     font-weight: 500;
@@ -132,7 +182,7 @@
 .restaurant__container {
   padding: 4rem 1rem;
   background-color: #f6f6f6;
-
+  
   h2 {
     font-size: 1.7rem;
     font-weight: 700;
@@ -171,37 +221,35 @@
   width: 100%;
   height: 30%;
   padding: 1rem 1rem;
-
+  
   h3 {
     font-weight: 700;
     padding-bottom: 0.5rem;
   }
 }
-.r__heart{
-  color: black;
-}
+
 .heart {
   color: $Primaire;
 }
 
 
 @media only screen and (min-width : 600px){
-
- 
-.restaurant__container{
-  text-align: center;
- h2{
-   font-size: 3rem;
- }
-}
-
-.header {
-  height: 70px;
-  overflow: hidden;
-}
-main {
-  overflow: hidden;
-}
+  
+  
+  .restaurant__container{
+    text-align: center;
+    h2{
+      font-size: 3rem;
+    }
+  }
+  
+  .header {
+    height: 70px;
+    overflow: hidden;
+  }
+  main {
+    overflow: hidden;
+  }
   .desktop{
     display: flex;
     flex-wrap: wrap;
@@ -210,9 +258,9 @@ main {
     overflow: hidden;
   }
   
-
+  
   .fonctionnment__container {
-
+    
     background-color: #fcfcfc;
     h2 {
       text-align: center;
@@ -223,7 +271,7 @@ main {
     width: 70%;
     margin: 1rem auto;
   }
-
+  
   .f__card__container {
     width: 100%;
     justify-content: space-around;
@@ -231,13 +279,13 @@ main {
   .f__card__title {
     width: 33%;
   }
-
+  
   .r-card {
     width: 550px;
     text-align: center;
     margin: 2.5rem 0;
     transition: .3s;
-
+    
     &:hover {
       transform: scale(1.10);
     }
@@ -245,16 +293,43 @@ main {
   .r-card__description {
     width: auto;
   }
-
+  
   
 }
+
+    .test:hover {
+     display:  inline !important;
+     animation-duration: 1s;
+     animation-name: heart-coloration;
+    }
 
 
 @keyframes heart-coloration {
   from {
-    color: $Secondaire;
+    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 0% );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
+  25% {
+    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 25%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  50% {
+    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 50%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  75% {
+    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 75%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   to {
-    color: $Primaire;
+    background: linear-gradient(180deg, $Secondaire 0%, $Primaire 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
   } 
 }
