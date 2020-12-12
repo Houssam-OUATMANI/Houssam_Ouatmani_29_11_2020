@@ -82,6 +82,24 @@ hr {
     }
 }
 
+.checked {
+    position: relative;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: $Tertiaire;
+    width: 10%;
+    height: fit-content;
+    padding: 3rem 0;
+    right: 0;
+    z-index: 99;
+    transition: 1s;
+}
+
+.checked:hover{
+    display: flex;
+}
 .f-description {
     display: flex;
     align-items: center;
@@ -180,14 +198,14 @@ hr {
      display:  inline !important;
      animation-duration: 1s;
      animation-name: heart-coloration;
-     animation-fill-mode: forwards;
+     animation-fill-mode: both;
     }
 
 
 @keyframes heart-coloration {
   @for $i from 1 through 100 {
     #{$i * 1%} {
-      background: linear-gradient($Secondaire , $Primaire #{$i * 1%} );
+       background: linear-gradient( #{$i * 1deg} ,$Primaire #{$i * 1%}   , $Secondaire #{$i * 1%}, $Primaire );
       -webkit-text-stroke-width: 0;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
