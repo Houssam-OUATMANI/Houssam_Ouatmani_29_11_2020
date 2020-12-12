@@ -3,61 +3,12 @@
 @import "../utils/shared.scss";
 
 
-// SPINNER
-.loader__container {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(218, 228, 236);
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  animation: blank 2s ease-in-out 2s reverse both;
-  z-index: 1;
-  pointer-events: none;
-  
+/*#border-icon {
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: white;
 }
+*/
 
-.loader {
-  position: relative;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  border-top: 3px solid $Primaire;
-  border-bottom: 3px solid $Secondaire;
-  border-left: 3px solid $Tertiaire;
-  border-right: 3px solid rgba(255, 255, 255, 0);
-  animation: rotate 2s linear infinite;
-}
-
-
-@keyframes blank {
-  to {
-    opacity: 1;
-    z-index: 99;
-    }
-  from {
-    opacity: 0;
-   
-  }
-}
-
-
-@keyframes rotate {
-  from {
-    transform: scale(1);
-    transform: rotate(0turn);
-    top : -20%;
-  }
-  to {
-    transform: scale(2);
-    transform: rotate(6turn);
-    top: 20%;
-  }
-}
-
-// END SPINNER
 
 .pb__container {
   z-index: 3;
@@ -101,9 +52,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
-
   a {
     padding: 1rem;
     border-radius: 30px;
@@ -116,6 +64,8 @@
     &:hover {
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
       background: linear-gradient($Secondaire_clair, $Primaire_clair);
+      transform: scale(1.25);
+      overflow: hidden;
     }
   }
 }
@@ -298,39 +248,92 @@
   
 }
 
-    .test:hover {
+//-------- ANIMATIONS --------------------
+
+// SPINNER
+.loader__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(218, 228, 236);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation: blank 2s ease-in-out 2s reverse both;
+  z-index: 1;
+  pointer-events: none;
+  
+}
+
+.loader {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-top: 3px solid $Primaire;
+  border-bottom: 3px solid $Secondaire;
+  border-left: 3px solid $Tertiaire;
+  border-right: 3px solid rgba(255, 255, 255, 0);
+  animation: rotate 2s linear infinite;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+@keyframes blank {
+  to {
+    opacity: 1;
+    }
+  from {
+    opacity: 0;
+   
+  }
+}
+
+
+@keyframes rotate {
+  from {
+   transform: rotate(0turn);
+    top : -30%;
+  }
+  to {
+   transform: rotate(9turn);
+   top: 0;
+    border-width: 20px;
+  }
+}
+
+// END SPINNER
+
+
+
+// HEART FILLING
+
+.fill {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+}
+
+    .fill:hover {
      display:  inline !important;
      animation-duration: 1s;
      animation-name: heart-coloration;
+     animation-fill-mode: forwards;
     }
 
 
 @keyframes heart-coloration {
-  from {
-    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 0% );
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  @for $i from 1 through 100 {
+    #{$i * 1%} {
+      background: linear-gradient($Secondaire , $Primaire #{$i * 1%} );
+      -webkit-text-stroke-width: 0;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
-  25% {
-    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 25%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  50% {
-    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 50%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  75% {
-    background: linear-gradient(#FF79DA , #9356DC , #99E2D0 75%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  to {
-    background: linear-gradient(180deg, $Secondaire 0%, $Primaire 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
-  } 
 }
+
+// HEART FILLING ///

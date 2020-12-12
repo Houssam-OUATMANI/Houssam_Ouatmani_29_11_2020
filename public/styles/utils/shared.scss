@@ -29,4 +29,13 @@
   
   .grey {
     background-color: #f6f6f6;
+    transition: .3s;
+  }
+
+  .grey:hover {
+    background-color:#e2d0f961;
+  }
+
+  .grey:hover > i {
+    color:#e2d0f961;
   }

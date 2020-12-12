@@ -83,55 +83,22 @@ a {
 
 .grey {
   background-color: #f6f6f6;
+  transition: 0.3s;
 }
 
-.loader__container {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #dae4ec;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  animation: blank 2s ease-in-out 2s reverse both;
-  z-index: 1;
-  pointer-events: none;
+.grey:hover {
+  background-color: #e2d0f961;
 }
 
-.loader {
-  position: relative;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  border-top: 3px solid #9356dc;
-  border-bottom: 3px solid #ff79da;
-  border-left: 3px solid #99e2d0;
-  border-right: 3px solid rgba(255, 255, 255, 0);
-  animation: rotate 2s linear infinite;
+.grey:hover > i {
+  color: #e2d0f961;
 }
 
-@keyframes blank {
-  to {
-    opacity: 1;
-    z-index: 99;
-  }
-  from {
-    opacity: 0;
-  }
+/*#border-icon {
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: white;
 }
-@keyframes rotate {
-  from {
-    transform: scale(1);
-    transform: rotate(0turn);
-    top: -20%;
-  }
-  to {
-    transform: scale(2);
-    transform: rotate(6turn);
-    top: 20%;
-  }
-}
+*/
 .pb__container {
   z-index: 3;
   height: 50px;
@@ -187,6 +154,8 @@ a {
 .btn__container a:hover {
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
   background: linear-gradient(#f78ed9, #905fcc);
+  transform: scale(1.25);
+  overflow: hidden;
 }
 
 .fonctionnment__container {
@@ -356,35 +325,665 @@ a {
     width: auto;
   }
 }
-.test:hover {
+.loader__container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dae4ec;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation: blank 2s ease-in-out 2s reverse both;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.loader {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  border-top: 3px solid #9356dc;
+  border-bottom: 3px solid #ff79da;
+  border-left: 3px solid #99e2d0;
+  border-right: 3px solid rgba(255, 255, 255, 0);
+  animation: rotate 2s linear infinite;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@keyframes blank {
+  to {
+    opacity: 1;
+  }
+  from {
+    opacity: 0;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0turn);
+    top: -30%;
+  }
+  to {
+    transform: rotate(9turn);
+    top: 0;
+    border-width: 20px;
+  }
+}
+.fill {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.fill:hover {
   display: inline !important;
   animation-duration: 1s;
   animation-name: heart-coloration;
+  animation-fill-mode: forwards;
 }
 
 @keyframes heart-coloration {
-  from {
-    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 0%);
-    background-clip: text;
+  1% {
+    background: linear-gradient(#ff79da, #9356dc 1%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  2% {
+    background: linear-gradient(#ff79da, #9356dc 2%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  3% {
+    background: linear-gradient(#ff79da, #9356dc 3%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  4% {
+    background: linear-gradient(#ff79da, #9356dc 4%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  5% {
+    background: linear-gradient(#ff79da, #9356dc 5%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  6% {
+    background: linear-gradient(#ff79da, #9356dc 6%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  7% {
+    background: linear-gradient(#ff79da, #9356dc 7%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  8% {
+    background: linear-gradient(#ff79da, #9356dc 8%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  9% {
+    background: linear-gradient(#ff79da, #9356dc 9%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  10% {
+    background: linear-gradient(#ff79da, #9356dc 10%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  11% {
+    background: linear-gradient(#ff79da, #9356dc 11%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  12% {
+    background: linear-gradient(#ff79da, #9356dc 12%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  13% {
+    background: linear-gradient(#ff79da, #9356dc 13%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  14% {
+    background: linear-gradient(#ff79da, #9356dc 14%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  15% {
+    background: linear-gradient(#ff79da, #9356dc 15%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  16% {
+    background: linear-gradient(#ff79da, #9356dc 16%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  17% {
+    background: linear-gradient(#ff79da, #9356dc 17%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  18% {
+    background: linear-gradient(#ff79da, #9356dc 18%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  19% {
+    background: linear-gradient(#ff79da, #9356dc 19%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  20% {
+    background: linear-gradient(#ff79da, #9356dc 20%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  21% {
+    background: linear-gradient(#ff79da, #9356dc 21%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  22% {
+    background: linear-gradient(#ff79da, #9356dc 22%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  23% {
+    background: linear-gradient(#ff79da, #9356dc 23%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  24% {
+    background: linear-gradient(#ff79da, #9356dc 24%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   25% {
-    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 25%);
-    background-clip: text;
+    background: linear-gradient(#ff79da, #9356dc 25%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  26% {
+    background: linear-gradient(#ff79da, #9356dc 26%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  27% {
+    background: linear-gradient(#ff79da, #9356dc 27%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  28% {
+    background: linear-gradient(#ff79da, #9356dc 28%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  29% {
+    background: linear-gradient(#ff79da, #9356dc 29%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  30% {
+    background: linear-gradient(#ff79da, #9356dc 30%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  31% {
+    background: linear-gradient(#ff79da, #9356dc 31%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  32% {
+    background: linear-gradient(#ff79da, #9356dc 32%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  33% {
+    background: linear-gradient(#ff79da, #9356dc 33%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  34% {
+    background: linear-gradient(#ff79da, #9356dc 34%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  35% {
+    background: linear-gradient(#ff79da, #9356dc 35%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  36% {
+    background: linear-gradient(#ff79da, #9356dc 36%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  37% {
+    background: linear-gradient(#ff79da, #9356dc 37%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  38% {
+    background: linear-gradient(#ff79da, #9356dc 38%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  39% {
+    background: linear-gradient(#ff79da, #9356dc 39%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  40% {
+    background: linear-gradient(#ff79da, #9356dc 40%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  41% {
+    background: linear-gradient(#ff79da, #9356dc 41%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  42% {
+    background: linear-gradient(#ff79da, #9356dc 42%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  43% {
+    background: linear-gradient(#ff79da, #9356dc 43%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  44% {
+    background: linear-gradient(#ff79da, #9356dc 44%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  45% {
+    background: linear-gradient(#ff79da, #9356dc 45%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  46% {
+    background: linear-gradient(#ff79da, #9356dc 46%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  47% {
+    background: linear-gradient(#ff79da, #9356dc 47%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  48% {
+    background: linear-gradient(#ff79da, #9356dc 48%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  49% {
+    background: linear-gradient(#ff79da, #9356dc 49%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   50% {
-    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 50%);
-    background-clip: text;
+    background: linear-gradient(#ff79da, #9356dc 50%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  51% {
+    background: linear-gradient(#ff79da, #9356dc 51%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  52% {
+    background: linear-gradient(#ff79da, #9356dc 52%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  53% {
+    background: linear-gradient(#ff79da, #9356dc 53%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  54% {
+    background: linear-gradient(#ff79da, #9356dc 54%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  55% {
+    background: linear-gradient(#ff79da, #9356dc 55%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  56% {
+    background: linear-gradient(#ff79da, #9356dc 56%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  57% {
+    background: linear-gradient(#ff79da, #9356dc 57%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  58% {
+    background: linear-gradient(#ff79da, #9356dc 58%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  59% {
+    background: linear-gradient(#ff79da, #9356dc 59%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  60% {
+    background: linear-gradient(#ff79da, #9356dc 60%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  61% {
+    background: linear-gradient(#ff79da, #9356dc 61%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  62% {
+    background: linear-gradient(#ff79da, #9356dc 62%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  63% {
+    background: linear-gradient(#ff79da, #9356dc 63%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  64% {
+    background: linear-gradient(#ff79da, #9356dc 64%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  65% {
+    background: linear-gradient(#ff79da, #9356dc 65%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  66% {
+    background: linear-gradient(#ff79da, #9356dc 66%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  67% {
+    background: linear-gradient(#ff79da, #9356dc 67%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  68% {
+    background: linear-gradient(#ff79da, #9356dc 68%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  69% {
+    background: linear-gradient(#ff79da, #9356dc 69%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  70% {
+    background: linear-gradient(#ff79da, #9356dc 70%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  71% {
+    background: linear-gradient(#ff79da, #9356dc 71%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  72% {
+    background: linear-gradient(#ff79da, #9356dc 72%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  73% {
+    background: linear-gradient(#ff79da, #9356dc 73%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  74% {
+    background: linear-gradient(#ff79da, #9356dc 74%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   75% {
-    background: linear-gradient(#FF79DA, #9356DC, #99E2D0 75%);
-    background-clip: text;
+    background: linear-gradient(#ff79da, #9356dc 75%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  to {
-    background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  76% {
+    background: linear-gradient(#ff79da, #9356dc 76%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  77% {
+    background: linear-gradient(#ff79da, #9356dc 77%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  78% {
+    background: linear-gradient(#ff79da, #9356dc 78%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  79% {
+    background: linear-gradient(#ff79da, #9356dc 79%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  80% {
+    background: linear-gradient(#ff79da, #9356dc 80%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  81% {
+    background: linear-gradient(#ff79da, #9356dc 81%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  82% {
+    background: linear-gradient(#ff79da, #9356dc 82%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  83% {
+    background: linear-gradient(#ff79da, #9356dc 83%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  84% {
+    background: linear-gradient(#ff79da, #9356dc 84%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  85% {
+    background: linear-gradient(#ff79da, #9356dc 85%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  86% {
+    background: linear-gradient(#ff79da, #9356dc 86%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  87% {
+    background: linear-gradient(#ff79da, #9356dc 87%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  88% {
+    background: linear-gradient(#ff79da, #9356dc 88%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  89% {
+    background: linear-gradient(#ff79da, #9356dc 89%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  90% {
+    background: linear-gradient(#ff79da, #9356dc 90%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  91% {
+    background: linear-gradient(#ff79da, #9356dc 91%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  92% {
+    background: linear-gradient(#ff79da, #9356dc 92%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  93% {
+    background: linear-gradient(#ff79da, #9356dc 93%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  94% {
+    background: linear-gradient(#ff79da, #9356dc 94%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  95% {
+    background: linear-gradient(#ff79da, #9356dc 95%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  96% {
+    background: linear-gradient(#ff79da, #9356dc 96%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  97% {
+    background: linear-gradient(#ff79da, #9356dc 97%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  98% {
+    background: linear-gradient(#ff79da, #9356dc 98%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  99% {
+    background: linear-gradient(#ff79da, #9356dc 99%);
+    -webkit-text-stroke-width: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: linear-gradient(#ff79da, #9356dc 100%);
+    -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
