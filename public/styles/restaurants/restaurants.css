@@ -104,8 +104,8 @@ hr {
   margin-bottom: 1rem;
 }
 
-.first {
-  margin-top: 2rem !important;
+strong {
+  font-weight: bold !important;
 }
 
 .image-francaise {
@@ -123,6 +123,10 @@ hr {
 
 .image-delice-sens {
   background-image: url("../../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+}
+
+.first {
+  margin-top: 1.5rem !important;
 }
 
 .a-la-francaise {
@@ -160,34 +164,51 @@ hr {
 }
 
 .f-article {
+  position: relative;
   margin-top: 1rem;
   padding: 1rem;
   background-color: white;
   border-radius: 1rem;
   box-shadow: 0 5px 5px 4px rgba(160, 141, 141, 0.048);
-  animation: sacade 1.3s ease;
+  animation: mouvement 1.3s ease;
+  overflow: hidden;
 }
 .f-article h4 {
   font-weight: 700;
 }
 
-.checked {
-  position: relative;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background-color: #99e2d0;
-  width: 10%;
-  height: fit-content;
-  padding: 3rem 0;
+.f-article:hover .checked {
   right: 0;
-  z-index: 99;
-  transition: 1s;
 }
 
-.checked:hover {
+.f-article:hover .checked i {
+  animation: icon-rotation 0.8s;
+}
+
+.f-article:hover .f-description p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 60%;
+}
+
+.checked {
+  transition: 1.5s;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: -150px;
+  height: 100%;
+  width: 20%;
+  color: white;
+  background-color: #99e2d0;
+}
+
+.f-article:hover .f-description strong {
+  transition: 1.5s ease;
+  margin-right: 90px;
 }
 
 .f-description {
@@ -258,11 +279,40 @@ hr {
     font-size: 4vw;
   }
 
+  .header h1 {
+    font-size: 8vw;
+  }
+
   .a-l-f__title h2 {
     font-size: 6vw;
   }
+
+  .f-article:hover .f-description p {
+    width: 40%;
+  }
+
+  .f-article:hover .f-description strong {
+    margin-right: 23%;
+  }
 }
-@keyframes sacade {
+@media only screen and (min-width: 400px) {
+  .f-article:hover .checked i {
+    animation-duration: 1.5s;
+  }
+
+  .f-article:hover .checked {
+    transition: 2s;
+  }
+
+  .checked {
+    right: -250px;
+  }
+
+  .f-article:hover .f-description strong {
+    margin-right: 23%;
+  }
+}
+@keyframes mouvement {
   1% {
     opacity: 1%;
     transform: translateY(-99%);
@@ -1277,6 +1327,14 @@ hr {
     -webkit-text-stroke-width: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+}
+@keyframes icon-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 

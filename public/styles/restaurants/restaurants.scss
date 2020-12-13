@@ -2,210 +2,261 @@
 @import "../utils/variable.scss";
 @import "../utils/shared.scss";
 
-
 hr {
-    display: block;
-    position: absolute;
-    width: 40px;
-    height: 3px;
-    background-color: $Tertiaire;
-    border: none;
-    margin-bottom: 1rem;
-    
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background-color: $Tertiaire;
+  border: none;
+  margin-bottom: 1rem;
 }
 
-.first {
-    margin-top: 2rem !important;
+strong {
+  font-weight: bold !important;
 }
-
+// IMPORT IMAGES
 .image-francaise {
-    background-image: url('../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
+  background-image: url("../../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
 }
 .image-note-enchantee {
-    background-image: url('../../assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
-    background-position: center;
+  background-image: url("../../assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+  background-position: center;
 }
 
 .image-pallette-gout {
-    background-image: url('../../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+  background-image: url("../../assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
 }
 
 .image-delice-sens {
-    background-image: url('../../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg');
+  background-image: url("../../assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
 }
 
-.a-la-francaise{
-    position: relative;
-    padding: 2rem 1rem;
-    margin-bottom: -3rem;
-    z-index: 3;
-    background-color: #f4f4f4;
-    border-radius: 2.5rem 2.5rem 0 0;
-    bottom: 3rem;
+
+.first {
+    margin-top: 1.5rem !important;
+}
+// END IMPORT
+
+.a-la-francaise {
+  position: relative;
+  padding: 2rem 1rem;
+  margin-bottom: -3rem;
+  z-index: 3;
+  background-color: #f4f4f4;
+  border-radius: 2.5rem 2.5rem 0 0;
+  bottom: 3rem;
 }
 
-.a-l-f__title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 95%;
+.a-l-f__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
 
-    h2 {
-        font-family: $Shrikhand;
-        font-size: 1.5rem;
-        padding-bottom: 1rem;
-    }
+  h2 {
+    font-family: $Shrikhand;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
 }
-.r__heart{
-    padding-bottom: .8rem;
+.r__heart {
+  padding-bottom: 0.8rem;
 }
-.menu{
-    padding-top: 1rem;
+.menu {
+  padding-top: 1rem;
 
-    h3 {
-       
-        font-weight: 400;
-        color: #383737;
-    }
+  h3 {
+    font-weight: 400;
+    color: #383737;
+  }
 }
 
 .f-article {
-    margin-top: 1rem;
-    padding: 1rem;
-    background-color: white;
-    border-radius: 1rem;
-    box-shadow: 0 5px 5px 4px rgba(160, 141, 141, 0.048);
-    animation: sacade 1.3s ease;
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 5px 5px 4px rgba(160, 141, 141, 0.048);
+  animation: mouvement 1.3s ease;
+  overflow: hidden;
 
-    h4 {
-        font-weight: 700;
-    }
+  h4 {
+    font-weight: 700;
+  }
 }
+
+.f-article:hover .checked {
+  right: 0;
+}
+.f-article:hover .checked i {
+  animation: icon-rotation 0.8s;
+}
+
+.f-article:hover .f-description p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 60%;
+}
+
 
 .checked {
-    position: relative;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    background-color: $Tertiaire;
-    width: 10%;
-    height: fit-content;
-    padding: 3rem 0;
-    right: 0;
-    z-index: 99;
-    transition: 1s;
+  transition: 1.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: -150px;
+  height: 100%;
+  width: 20%;
+  color: white;
+  background-color: $Tertiaire;
 }
 
-.checked:hover{
-    display: flex;
+.f-article:hover .f-description strong {
+    transition: 1.5s ease;
+    margin-right: 90px ;
+  
 }
 .f-description {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
 }
 .green {
-    width: 100px;
-    display: flex;
-    padding: 2rem 0;
-    background-color: $Tertiaire;
+  width: 100px;
+  display: flex;
+  padding: 2rem 0;
+  background-color: $Tertiaire;
 }
 .plats,
 .dessert {
-    padding-top: 2.5rem;
+  padding-top: 2.5rem;
 }
 
-.btn__commander{
-    padding: 3rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    input {
-        color:  white;
-        background: linear-gradient($Secondaire, $Primaire );
-        padding: 1rem 3rem;
-        border-radius: 2rem;
-        border: none;
-        font-size: 1.1rem;
-        transition:  .3s;
-    }
+.btn__commander {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    color: white;
+    background: linear-gradient($Secondaire, $Primaire);
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
 
-    input:hover{
-        cursor: pointer;
-            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
-            background: linear-gradient($Secondaire_clair, $Primaire_clair);
-    }
-
-   
+  input:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
+    background: linear-gradient($Secondaire_clair, $Primaire_clair);
+  }
 }
 
-
-@media only screen and (min-width : 600px){
-
-    hr {
-        position: relative;
-        width: 40px;
-    }
-    .a-l-f__title {
-        margin: auto;
-        padding-bottom: 1rem;
-        width: 75%;
-    }
-    .f-article {
-        width: 75%;
-        margin: 1rem auto;
-    }
-    .menu h3 {
-        display: block;
-        text-align: center;
-        border-bottom: none;
-    }
+// AFFICHAGE GRAND ECRAN
+@media only screen and (min-width: 600px) {
+  hr {
+    position: relative;
+    width: 40px;
+  }
+  .a-l-f__title {
+    margin: auto;
+    padding-bottom: 1rem;
+    width: 75%;
+  }
+  .f-article {
+    width: 75%;
+    margin: 1rem auto;
+  }
+  .menu h3 {
+    display: block;
+    text-align: center;
+    border-bottom: none;
+  }
 }
 
-@media only screen and (max-width : 300px){
+// AJOUSTEMENT TOUT PETIT ECRANS
 
-    * {
-        font-size: 4vw;
-    }
-    .a-l-f__title h2{
-        font-size: 6vw;
-    }
+@media only screen and (max-width: 300px) {
+  * {
+    font-size: 4vw;
+  }
+  .header h1 {
+    font-size: 8vw;
+  }
+  .a-l-f__title h2 {
+    font-size: 6vw;
+  }
+
+  .f-article:hover .f-description p {
+    width: 40%;
+  }
+  .f-article:hover .f-description strong {
+    margin-right: 23%;
+  }
 }
 
+// Positionement du prix
+@media only screen and (min-width: 400px) {
+    .f-article:hover .checked i{
+        animation-duration: 1.5s;
+    }
+    .f-article:hover .checked{
+        transition: 2s;
+    }
+  .checked {
+    right: -250px;
+  }
 
-
-@keyframes sacade {
-        @for $i from 1 through 100 {
-            #{$i * 1%} {
-                opacity: #{$i * 1%} ;
-                transform: translateY(#{-100% + $i });
-            }
-        }
+  .f-article:hover .f-description strong {
+    margin-right: 23%;
+  }
 }
 
+// END MEDIA QUERIES
+
+// ANIMATIONS
+
+@keyframes mouvement {
+  @for $i from 1 through 100 {
+    #{$i * 1%} {
+      opacity: #{$i * 1%};
+      transform: translateY(#{-100% + $i});
+    }
+  }
+}
 
 // HEART FILLING
 
 .fill {
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
 }
 
-    .fill:hover {
-     display:  inline !important;
-     animation-duration: 1s;
-     animation-name: heart-coloration;
-     animation-fill-mode: both;
-    }
-
+.fill:hover {
+  display: inline !important;
+  animation-duration: 1s;
+  animation-name: heart-coloration;
+  animation-fill-mode: both;
+}
 
 @keyframes heart-coloration {
   @for $i from 1 through 100 {
     #{$i * 1%} {
-       background: linear-gradient( #{$i * 1deg} ,$Primaire #{$i * 1%}   , $Secondaire #{$i * 1%}, $Primaire );
+      background: linear-gradient(
+        #{$i * 1deg},
+        $Primaire #{$i * 1%},
+        $Secondaire #{$i * 1%},
+        $Primaire
+      );
       -webkit-text-stroke-width: 0;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -214,3 +265,15 @@ hr {
 }
 
 // HEART FILLING ///
+
+// ROTATION ICON CHECKED
+@keyframes icon-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// END ANIMATIONS
