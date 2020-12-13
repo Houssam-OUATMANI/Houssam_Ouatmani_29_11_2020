@@ -94,11 +94,6 @@ a {
   color: #e2d0f961;
 }
 
-/*#border-icon {
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-  color: white;
-}
-*/
 .pb__container {
   z-index: 3;
   height: 50px;
@@ -232,7 +227,7 @@ a {
 }
 .r-card img {
   width: 100%;
-  height: 13rem;
+  height: 11rem;
   z-index: 3;
 }
 .r-card span {
@@ -264,6 +259,11 @@ a {
   color: #9356dc;
 }
 
+@media only screen and (min-width: 450px) {
+  .r-card img {
+    height: 13rem;
+  }
+}
 @media only screen and (min-width: 600px) {
   .restaurant__container {
     text-align: center;
@@ -316,6 +316,9 @@ a {
     text-align: center;
     margin: 2.5rem 0;
     transition: 0.3s;
+  }
+  .r-card img {
+    height: 15rem;
   }
   .r-card:hover {
     transform: scale(1.1);
