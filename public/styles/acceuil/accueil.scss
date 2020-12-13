@@ -16,10 +16,10 @@
   }
 }
 .pb__holder {
-  width: 40%;
+  width: 60%;
   height: inherit;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -82,9 +82,15 @@
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.125);
   margin-bottom: 1rem;
   margin-left: 1rem;
+  cursor: pointer;
   
 }
 
+
+.grey:hover  i {
+  transition: .3s;
+  color: #9356dc !important;
+}
 .f__card__container {
   width: 100%;
   display: flex;
@@ -248,6 +254,36 @@
   }
   
   
+}
+
+// SUPPORT PETIT ECRAN  <= 300 px
+@media only screen and (max-width: 300px) {
+  * {
+    font-size: 4vw;
+  }
+  .header h1 {
+    font-size: 8vw;
+  }
+  h2 , p{
+    font-size: 6vw !important;
+  }
+  h3 {
+    font-size: 4vw !important;
+  }
+  .pb__holder{
+    width: 100%;
+  }
+  .f__card {
+    height: 50px;
+  }
+  .btn__container a {
+    padding: .5rem;
+  }
+  .r-card {
+    img {
+      height: 16vh;
+    }
+  }
 }
 
 //-------- ANIMATIONS --------------------//
