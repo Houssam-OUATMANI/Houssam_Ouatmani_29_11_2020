@@ -366,8 +366,8 @@
 @keyframes heart-coloration {
   @for $i from 1 through 100 {
     #{$i * 1%} {
-       background: linear-gradient( #{$i * 1deg} ,$Primaire #{$i * 1%}   , $Secondaire #{$i * 1%}, $Primaire );
-      -webkit-text-stroke-width: 0;
+       background: linear-gradient( #{$i * 5deg} ,$Primaire #{$i * 1%}   , white #{$i * 1%}, white);
+      -webkit-text-stroke-width: 0.05px;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }

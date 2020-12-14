@@ -79,11 +79,16 @@ strong {
   background-color: white;
   border-radius: 1rem;
   box-shadow: 0 5px 5px 4px rgba(160, 141, 141, 0.048);
-  animation: mouvement 1.3s ease;
   overflow: hidden;
-
   h4 {
     font-weight: 700;
+  }
+}
+
+// creation de 10 classe 
+@for $i from 1 through 10 {
+  .decalage-#{$i}{
+    animation: mouvement #{$i * 1s/4}  ease;
   }
 }
 
@@ -91,7 +96,7 @@ strong {
   right: 0;
 }
 .f-article:hover .checked i {
-  animation: icon-rotation 0.8s;
+  animation: icon-rotation 1s;
 }
 
 .f-article:hover .f-description p {
@@ -103,7 +108,7 @@ strong {
 
 
 .checked {
-  transition: 1.5s;
+  transition: 1.5s ease;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,10 +121,12 @@ strong {
   background-color: $Tertiaire;
 }
 
+.f-description strong {
+  transition: 1.5s ease;
+}
 .f-article:hover .f-description strong {
-    transition: 1.5s ease;
-    margin-right: 90px ;
-  
+    transition: 2s ease;
+    margin-right: 18% ;
 }
 .f-description {
   display: flex;
@@ -157,6 +164,7 @@ strong {
     cursor: pointer;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.658);
     background: linear-gradient($Secondaire_clair, $Primaire_clair);
+    transform: scale(1.20);
   }
 }
 
@@ -251,13 +259,8 @@ strong {
 @keyframes heart-coloration {
   @for $i from 1 through 100 {
     #{$i * 1%} {
-      background: linear-gradient(
-        #{$i * 1deg},
-        $Primaire #{$i * 1%},
-        $Secondaire #{$i * 1%},
-        $Primaire
-      );
-      -webkit-text-stroke-width: 0;
+       background: linear-gradient( #{$i * 5deg} ,$Primaire #{$i * 1%}   , white #{$i * 1%}, white);
+      -webkit-text-stroke-width: 0.05px;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
