@@ -73,10 +73,6 @@ img {
   object-fit: cover;
 }
 
-::selection {
-  background-color: none;
-}
-
 a {
   color: black;
 }
